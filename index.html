@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login e Inscrição</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="./src/assets/logo-form.png">
+    <link rel="icon" type="image/svg+xml" href="./src/assets/logo-form.svg">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <h2 class="title">Entrar</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Usuário" required />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required />
+                </div>
+                <button class="btn">Entrar</button>
+                <p class="social-text">Ou entre com plataformas sociais</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <h2 class="title">Inscrever-se</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Usuário" required />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha" required />
+                </div>
+                <button class="btn">Inscrever-se</button>
+                <p class="social-text">Ou inscreva-se com plataformas sociais</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Descubra um mundo de possibilidades!</h3>
+                    <p>Junte-se a nós e explore uma comunidade vibrante onde as ideias florescem e as conexões prosperam.</p>
+                    <button class="btn transparent" id="sign-up-btn">Inscrever-se</button>
+                </div>
+                <img decoding="async" src="https://i.ibb.co/6HXL6q1/Privacy-policy-rafiki.png" class="image" alt="Ilustração de privacidade" />
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Obrigado por fazer parte da nossa comunidade!</h3>
+                    <p>Sua presença enriquece nossas experiências compartilhadas. Vamos continuar essa jornada juntos!</p>
+                    <button class="btn transparent" id="sign-in-btn">Entrar</button>
+                </div>
+                <img decoding="async" src="https://i.ibb.co/nP8H853/Mobile-login-rafiki.png" class="image" alt="Ilustração de login móvel" />
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
