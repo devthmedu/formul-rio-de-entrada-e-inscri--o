@@ -1,5 +1,8 @@
 # Formulário de Login e Inscrição
 
+![Formulário de Login e Inscrição](https://github.com/user-attachments/assets/73cf8608-338f-4034-b258-7e831fd886df)
+
+
 Este projeto é um formulário de login e inscrição responsivo, utilizando HTML, CSS e JavaScript. O design é moderno e intuitivo, permitindo que os usuários alternem entre as telas de login e inscrição de forma simples.
 
 ## Tecnologias Utilizadas
